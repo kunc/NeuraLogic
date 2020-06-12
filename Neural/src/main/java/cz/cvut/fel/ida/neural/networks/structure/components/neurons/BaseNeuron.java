@@ -1,7 +1,7 @@
 package cz.cvut.fel.ida.neural.networks.structure.components.neurons;
 
-import com.sun.istack.internal.NotNull;
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 import cz.cvut.fel.ida.algebra.functions.Aggregation;
 import cz.cvut.fel.ida.neural.networks.computation.iteration.NeuronVisiting;
 import cz.cvut.fel.ida.neural.networks.computation.iteration.visitors.neurons.NeuronVisitor;

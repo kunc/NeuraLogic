@@ -1,6 +1,6 @@
 package cz.cvut.fel.ida.algebra.weights;
 
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 import cz.cvut.fel.ida.algebra.utils.metadata.WeightMetadata;
 import cz.cvut.fel.ida.algebra.values.Value;
 import cz.cvut.fel.ida.algebra.values.inits.ValueInitializer;

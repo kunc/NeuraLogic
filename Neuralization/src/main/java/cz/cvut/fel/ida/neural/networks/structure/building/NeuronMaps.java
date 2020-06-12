@@ -1,7 +1,7 @@
 package cz.cvut.fel.ida.neural.networks.structure.building;
 
-import com.sun.istack.internal.NotNull;
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 import cz.cvut.fel.ida.logic.constructs.example.ValuedFact;
 import cz.cvut.fel.ida.logic.constructs.template.components.GroundHeadRule;
 import cz.cvut.fel.ida.logic.constructs.template.components.GroundRule;

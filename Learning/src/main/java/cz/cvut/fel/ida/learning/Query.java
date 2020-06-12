@@ -1,6 +1,6 @@
 package cz.cvut.fel.ida.learning;
 
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 import cz.cvut.fel.ida.algebra.values.Value;
 import cz.cvut.fel.ida.setup.Settings;
 import cz.cvut.fel.ida.utils.exporting.Exportable;

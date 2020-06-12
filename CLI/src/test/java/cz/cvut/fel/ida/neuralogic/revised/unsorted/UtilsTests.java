@@ -1,7 +1,7 @@
 package cz.cvut.fel.ida.neuralogic.revised.unsorted;
 
 import cz.cvut.fel.ida.utils.generic.TestAnnotations;
-import sun.misc.Launcher;
+//import sun.misc.Launcher;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -51,7 +51,8 @@ public class UtilsTests {
     @TestAnnotations.Fast
     public void jartest(){
         String path = ".";
-        final URL url = Launcher.class.getResource("/" + path);
+        // Launcher.class replaced based on https://stackoverflow.com/a/47645976/13371322
+        final URL url = UtilsTests.class.getResource("/" + path);
         if (url != null) {
             try {
                 final File apps = new File(url.toURI());

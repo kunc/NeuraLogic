@@ -1,6 +1,6 @@
 package cz.cvut.fel.ida.learning.crossvalidation;
 
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 import cz.cvut.fel.ida.learning.LearningSample;
 import cz.cvut.fel.ida.learning.crossvalidation.splitting.Splitter;
 import cz.cvut.fel.ida.learning.results.*;

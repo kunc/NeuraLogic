@@ -23,7 +23,6 @@
         <module>Pipelines</module>
         <module>Utilities</module>
         <module>Workflow</module>
-        <module>Pipelines</module>
         <module>Resources</module>
     </modules>
 

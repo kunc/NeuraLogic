@@ -1,7 +1,7 @@
 package cz.cvut.fel.ida.logic.constructs.example;
 
 
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 import cz.cvut.fel.ida.logic.constructs.Conjunction;
 import cz.cvut.fel.ida.learning.Example;
 

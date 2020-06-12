@@ -1,6 +1,6 @@
 package cz.cvut.fel.ida.neural.networks.structure.components.types;
 
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 import cz.cvut.fel.ida.neural.networks.structure.components.NeuralNetwork;
 import cz.cvut.fel.ida.neural.networks.structure.components.NeuralSets;
 import cz.cvut.fel.ida.neural.networks.structure.components.neurons.BaseNeuron;
